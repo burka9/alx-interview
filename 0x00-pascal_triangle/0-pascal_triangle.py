@@ -12,7 +12,7 @@ def pascal_triangle(n):
     for i in range(n):
         tmp = []
         for j in range(1, i):
-            a = array[i - 1][j]
+            a = array[i - 1][j-1]
             b = 0
             try:
                 b = array[i - 1][j]
